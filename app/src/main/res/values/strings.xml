@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="authorize">Войти</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="authorization">Вход</string>
+    <string name="privacy_policy">Нажимая на кнопку, вы соглашаетесь \nс политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение</string>
+    <string name="m">Мужской</string>
+    <string name="f">Женский</string>
+    <string name="o">Другое</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="name">Имя или никнейм</string>
+    <string name="registration">Регистрация</string>
+    <string name="gender">Пол</string>
+    <string name="best_trecker">Пожалуй, лучший фитнес трекер в ДВФУ</string>
+    <string name="made_by">Созданный студентами</string>
+    <string name="existing_acc">Уже есть аккаунт?</string>
+</resources>
