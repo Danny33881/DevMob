@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="authorize">Войти</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="authorization">Вход</string>
+    <string name="privacy_policy">Нажимая на кнопку, вы соглашаетесь \nс политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение</string>
+    <string name="m">Мужской</string>
+    <string name="f">Женский</string>
+    <string name="o">Другое</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="name">Имя или никнейм</string>
+    <string name="registration">Регистрация</string>
+    <string name="gender">Пол</string>
+    <string name="best_trecker">Пожалуй, лучший фитнес трекер в ДВФУ</string>
+    <string name="made_by">Созданный студентами</string>
+    <string name="existing_acc">Уже есть аккаунт?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity">Активность</string>
+    <string name="profile">Профиль</string>
+    <string name="my">Мои</string>
+    <string name="users">Пользователей</string>
+    <string name="save">Сохранить</string>
+    <string name="change_pas">Изменить пароль</string>
+    <string name="logout">Выйти</string>
+    <string name="time_to_train">Время потренить</string>
+    <string name="tap_on_button">Нажимай на кнопку ниже, и начнаем трекать активность</string>
+    <string name="my_activity">Тут будет моя активность</string>
+    <string name="users_activity">Тут будет активность других пользователей</string>
+</resources>
