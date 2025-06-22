@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/borders_file"
+    android:padding="15dp"
+    android:layout_marginBottom="15dp"
+    android:id="@+id/item"
+    android:elevation="2dp">
+
+        <TextView
+            android:id="@+id/length"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="14.32 км"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2 часа 46 минут"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@+id/length"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/activity_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="start"
+        android:text="Серфинг"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time" />
+
+    <TextView
+        android:id="@+id/when_was"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="14 часов назад"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:gravity="end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activity_name"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_name"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
